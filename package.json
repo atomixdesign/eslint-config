@@ -1,0 +1,18 @@
+{
+  "name": "@atomixdesign/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jack Hillman <jack@atomix.com.au>",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0"
+  }
+}
