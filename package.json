@@ -1,6 +1,6 @@
 {
   "name": "@atomixdesign/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "author": "Jack Hillman <jack@atomix.com.au>",
   "license": "MIT",
