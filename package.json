@@ -1,18 +1,26 @@
 {
-  "name": "@atomixdesign/eslint-config",
-  "version": "1.0.3",
-  "main": "index.js",
-  "author": "Jack Hillman <jack@atomix.com.au>",
+  "name": "@nickatomix/eslint-config",
+  "version": "2.0.0",
+  "main": "default.js",
+  "author": "Jack Hillman <jack@atomix.com.au>, Nick Ducker <nick@atomix.com.au>",
   "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./default.js",
+    "./react": "./react.js"
+  },
   "peerDependencies": {
-    "eslint": ">= 3",
+    "eslint": ">= 9",
+    "typescript": ">= 5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@stylistic/eslint-plugin": "^2.13.0",
+    "eslint": "^9.18.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.8",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "typescript": "^4.8.3"
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.37.0",
-    "@typescript-eslint/parser": "^5.37.0"
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.19.1"
   }
 }
