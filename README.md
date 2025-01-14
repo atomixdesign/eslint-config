@@ -37,7 +37,7 @@ And use the React config instead in your `.eslintrc`:
 yarn add --dev eslint @atomixdesign/eslint-config
 ```
 
-Add the following into your `eslint.config.js` file:
+Add the following into your `eslint.config.mjs` file (note the .mjs, not .js):
 
 ```js
 import config from "@atomixdesign/eslint-config"
@@ -49,7 +49,7 @@ export default [
 
 ## Usage with React
 
-Add the additional react config into your `eslint.config.js` file:
+Add the additional react config into your `eslint.config.mjs` file (note the .mjs, not .js):
 
 ```js
 import config from "@atomixdesign/eslint-config"
