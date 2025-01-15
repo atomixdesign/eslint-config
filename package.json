@@ -1,5 +1,5 @@
 {
-  "name": "@nickatomix/eslint-config",
+  "name": "@atomixdesign/eslint-config",
   "version": "2.0.0",
   "main": "default.js",
   "author": "Jack Hillman <jack@atomix.com.au>, Nick Ducker <nick@atomix.com.au>",
